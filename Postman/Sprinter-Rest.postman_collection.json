@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "ClearCaché",
+			"name": "ClearCache",
 			"request": {
 				"method": "GET",
 				"header": [],

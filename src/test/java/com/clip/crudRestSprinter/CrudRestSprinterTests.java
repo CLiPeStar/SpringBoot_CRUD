@@ -9,17 +9,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-// @RunWith(SpringRunner.class)
-// @SpringBootTest
+@RunWith(SpringRunner.class)
+@SpringBootTest
 class CrudRestSprinterTests {
-	// @Autowired
-	// private DataSource dataSource;
+	@Autowired
+	private DataSource dataSource;
 
-	// @Test
-	// public void
-	// givenTomcatConnectionPoolInstance_whenCheckedPoolClassName_thenCorrect() {
-	// Assertions.assertThat(dataSource.getClass().getName())
-	// .isEqualTo("org.apache.tomcat.jdbc.pool.DataSource");
-	// }
+	@Test
+	public void givenTomcatConnectionPoolInstance_whenCheckedPoolClassName_thenCorrect() {
+		Assertions.assertThat(dataSource.getClass().getName())
+				.isEqualTo("org.apache.tomcat.jdbc.pool.DataSource");
+	}
 
 }
