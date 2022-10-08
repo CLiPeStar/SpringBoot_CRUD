@@ -1,0 +1,14 @@
+[
+  {
+    "barCode": "1",
+    "itemName": "FastSho",
+    "dscription": "Zapatillas de Hermes más rapidas que el rayo",
+    "price": 76.99
+  },
+  {
+    "barCode": "2",
+    "itemName": "HeadWing",
+    "dscription": "Gorra de Hermes, volaras",
+    "price": 56.99
+  }
+]
