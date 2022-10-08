@@ -85,16 +85,8 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
--    [![Next][next.js]][next-url]
--    [![React][react.js]][react-url]
--    [![Vue][vue.js]][vue-url]
--    [![Angular][angular.io]][angular-url]
--    [![Svelte][svelte.dev]][svelte-url]
--    [![Laravel][laravel.com]][laravel-url]
--    [![Bootstrap][bootstrap.com]][bootstrap-url]
--    [![JQuery][jquery.com]][jquery-url]
+-    [![Spring Boot][springboot]][springboot-url]
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,8 +122,8 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[next-url]: https://nextjs.org/
+[springboot]: https://img.shields.io/badge/Spring%20Boot-35495E?style=for-the-badge&logo=springboot&logoColor=42f551
+[springboot-url]: https://spring.io/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
 [vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
