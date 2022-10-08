@@ -1,68 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      
-      
-<!-- ROADMAP -->
-## Roadmap
-
--    [x] Add Changelog
--    [x] Add back to top links
--    [ ] Add Additional Templates w/ Examples
--    [ ] Add "components" document to easily copy & paste sections of the readme
--    [ ] Multi-language Support
-     -    [ ] Chinese
-     -    [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -86,7 +21,6 @@ Use the `BLANK_README.md` to get started.
 ### Built With
 
 -    [![Spring Boot][springboot]][springboot-url]
--
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,15 +28,13 @@ Use the `BLANK_README.md` to get started.
 
 ## Roadmap
 
--    [x] Add Changelog
--    [x] Add back to top links
--    [ ] Add Additional Templates w/ Examples
--    [ ] Add "components" document to easily copy & paste sections of the readme
--    [ ] Multi-language Support
-     -    [ ] Chinese
-     -    [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+-    [x] Separación de paquetes
+-    [x] Gestión de excepciones
+-    [x] Uso de bd h2 en memoria
+-    [x] Test del repositorio, servicio y controlador
+-    [x] Caché para las peticiones
+-    [x] Pool de conexiones
+-    [x] Logs en la app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
