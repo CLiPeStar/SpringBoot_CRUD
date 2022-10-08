@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "83656ff6-3f6f-4137-b99f-bfbe7092295a",
+		"name": "Sprinter-Rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15078072"
+	},
+	"item": [
+		{
+			"name": "ClearCaché",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/flushCache",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"flushCache"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllArticles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/getAllArticles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"getAllArticles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetArticleById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/getArticleById?idArticle=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"getArticleById"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "idArticle",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutArticle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"barCode\":\"1\",\r\n    \"itemName\":\"FastSho\",\r\n    \"dscription\":\"Zapatillas de Hermes\",\r\n    \"price\":76.99\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/putArticle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"putArticle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostArticle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"barCode\":\"1\",\r\n    \"itemName\":\"FastSho\",\r\n    \"dscription\":\"Zapatillas de Hermes\",\r\n    \"price\":401\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/postArticle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"postArticle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteArticleById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/deleteArticleById?idArticle=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"deleteArticleById"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "idArticle",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -61,7 +61,7 @@ public class ArticleController {
         return new ResponseEntity<HttpResponseArticle>(response, response.getStatus());
     }
 
-    @GetMapping("/flushcache")
+    @GetMapping("/flushCache")
     public ResponseEntity<String> flushCache() {
         LoggerSharedArticle.logInfo("GET", "Clear Caché");
         articleService.flushCache();
